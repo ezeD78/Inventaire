@@ -58,7 +58,7 @@ class Item : Hashable  {
     
     func depuisQuand() -> String {
         let calendar = Calendar.current
-        var tempsecouler = calendar.dateComponents([.day], from: self.dateOuverture!, to: .now)
+        let tempsecouler = calendar.dateComponents([.day], from: self.dateOuverture!, to: .now)
         
         return tempsecouler.day?.description ?? "-1"
     }

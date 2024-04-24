@@ -307,7 +307,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		E3017B7E2BD93CBF006E47E0 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
